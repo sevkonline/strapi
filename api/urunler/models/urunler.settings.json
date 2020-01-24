@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "urunler"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "imgurl": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "urunlers"
+}

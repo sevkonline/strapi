@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/urunlers",
+      "handler": "urunler.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/urunlers/count",
+      "handler": "urunler.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/urunlers/:id",
+      "handler": "urunler.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/urunlers",
+      "handler": "urunler.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/urunlers/:id",
+      "handler": "urunler.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/urunlers/:id",
+      "handler": "urunler.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
