@@ -1,8 +1,6 @@
 {
-  "connection": "default",
-  "collectionName": "urunlers",
   "info": {
-    "name": "urunler"
+    "name": "products"
   },
   "options": {
     "increments": true,
@@ -15,14 +13,16 @@
     "price": {
       "type": "string"
     },
-    "code": {
+    "url": {
       "type": "string"
     },
     "imgurl": {
       "type": "string"
     },
-    "url": {
+    "code": {
       "type": "string"
     }
-  }
+  },
+  "connection": "default",
+  "collectionName": "products"
 }
