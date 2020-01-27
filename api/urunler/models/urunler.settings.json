@@ -23,6 +23,12 @@
     },
     "url": {
       "type": "string"
+    },
+    "old_price": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
     }
   }
 }
