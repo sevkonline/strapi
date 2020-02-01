@@ -29,6 +29,12 @@
     },
     "discount": {
       "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "string"
     }
   }
 }
