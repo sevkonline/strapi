@@ -31,10 +31,16 @@
       "type": "string"
     },
     "category": {
-      "type": "string"
+      "type": "string",
+      "default": "kategori"
     },
     "expirationDate": {
       "type": "string"
+    },
+    "durum": {
+      "type": "boolean",
+      "default": true,
+      "private": true
     }
   }
 }
