@@ -40,7 +40,7 @@
       "private": true
     },
     "expirationDate": {
-      "type": "date"
+      "type": "datetime"
     }
   }
 }
